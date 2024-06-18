@@ -18,8 +18,8 @@ export class Navbar extends React.Component {
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>
                         <li><a href="/">Meus cursos</a></li>
-                        <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank">Meu certificados</a></li>
-                        <li><a href="https://github.com/guifermino7" target="_blank">Sobre mim</a></li>
+                        <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank" rel="noreferrer">Meu certificados</a></li>
+                        <li><a href="https://github.com/guifermino7" target="_blank" rel="noreferrer">Sobre mim</a></li>
                     </ul>
                 </nav>
             </header>
