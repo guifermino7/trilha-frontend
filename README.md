@@ -1,6 +1,6 @@
-# Trilha de <span style="color: darkorchid">Front</span> End
+# Trilha de Front End
 
-### Este é meu primeiro projeto utilizando o framework <span style="color: aqua">React</span>, onde pude aprender suas vantagens e especificações.
+### Este é meu primeiro projeto utilizando o framework <code style="color: aqua">React</code>, onde pude aprender suas vantagens e especificações.
 
 <br>
 
@@ -12,15 +12,15 @@
 
 ### As tecnologias utilizadas foram:
 
-* <span style="color: orangered">**HTML**</span>;
-* <span style="color: dodgerblue">**CSS**</span>;
-* <span style="color: yellow">**Javacript**</span>;
-* <span style="color: aqua">**React**</span>.
+* <code style='color: orangered'>**HTML**</code>;
+* <code style="color: dodgerblue">**CSS**</code>;
+* <code style="color: yellow">**Javacript**</code>;
+* <code style="color: aqua">**React**</code>.
 
 <br>
 
 #
 
-#### Como este é meu primeiro projeto utilizando <span style="color: aqua">React</span>, ele é básico para aprender sobre os componentes, a utilização dos arquivos ".jsx" para facilitar o uso do <span style="color: orangered">HTML</span> no <span style="color: yellow">Javascript</span> e a importância do <span style="color: yellow">Javascript</span> neste framework.
+#### Como este é meu primeiro projeto utilizando <code style="color: aqua">React</code>, ele é básico para aprender sobre os componentes, a utilização dos arquivos ".jsx" para facilitar o uso do <code style="color: orangered">HTML</code> no <code style="color: yellow">Javascript</code> e a importância do <code style="color: yellow">Javascript</code> neste framework.
 
-#### A trilha de <span style="color: darkorchid">Front</span> End foi ministrado pela <a ref="https://ada.tech/" style="color: forestgreen">Ada Tech</a> em parceiria com o banco <a ref="https://www.santanderopenacademy.com/pt_br/index.html?utm_source=Transaccional&utm_medium=Email&utm_campaign=Inscripcion" style="color: red">Santander</a>.
+#### A trilha de Front End foi ministrado pela Ada Tech em parceiria com o banco Santander.
