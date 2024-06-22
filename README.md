@@ -1,6 +1,6 @@
-# Trilha de Front End
+# Trilha de ${\color{darkorchid}\textsf{Front}}$ End
 
-### Este é meu primeiro projeto utilizando o framework <code style="color: aqua">React</code>, onde pude aprender suas vantagens e especificações.
+### Este é meu primeiro projeto utilizando o framework ${\color{aqua}\textsf{React}}$, onde pude aprender suas vantagens e especificações.
 
 <br>
 
@@ -12,15 +12,15 @@
 
 ### As tecnologias utilizadas foram:
 
-* <code style='color: orangered'>**HTML**</code>;
-* <code style="color: dodgerblue">**CSS**</code>;
-* <code style="color: yellow">**Javacript**</code>;
-* <code style="color: aqua">**React**</code>.
+* ${\color{orangered}\textsf{HTML}}$;
+* ${\color{dodgerblue}\textsf{CSS}}$;
+* ${\color{yellow}\textsf{Javacript}}$;
+* ${\color{aqua}\textsf{React}}$.
 
 <br>
 
 #
 
-#### Como este é meu primeiro projeto utilizando <code style="color: aqua">React</code>, ele é básico para aprender sobre os componentes, a utilização dos arquivos ".jsx" para facilitar o uso do <code style="color: orangered">HTML</code> no <code style="color: yellow">Javascript</code> e a importância do <code style="color: yellow">Javascript</code> neste framework.
+#### Como este é meu primeiro projeto utilizando ${\color{aqua}\textsf{React}}$, ele é básico para aprender sobre os componentes, a utilização dos arquivos ".jsx" para facilitar o uso do ${\color{orangered}\textsf{HTML}}$ no ${\color{yellow}\textsf{Javacript}}$ e a importância do ${\color{yellow}\textsf{Javacript}}$ neste framework.
 
-#### A trilha de Front End foi ministrado pela Ada Tech em parceiria com o banco Santander.
+#### A trilha de ${\color{darkorchid}\textsf{Front}}$ End foi ministrado pela ${\color{forestgreen}\textsf{Ada Tech}}$ em parceiria com o banco ${\color{red}\textsf{Santander}}$.
