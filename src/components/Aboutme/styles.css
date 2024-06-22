@@ -1,0 +1,54 @@
+main {
+    width: 100rem;
+    display: flex;
+}
+
+.about-me {
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 2rem;
+}
+
+section .about-me h2 {
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+section .about-me h3, section .about-me h4 {
+    margin: 0 3rem;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+
+    /* gap: 1.5rem; */
+}
+
+.experience {
+    font-size: 1.4rem;
+}
+
+.stone, .cti {
+    width: 5.5rem;
+}
+
+.about-me p, .experience p {
+    max-height: 25rem;
+    margin: 3rem;
+    font-size: 1.4rem;
+}
+
+.stone {
+    color: lime;
+}
+
+.cti {
+    color: #3590C9;
+}
+
+.eu-foto {
+    outline: 0.25rem solid darkslateblue;
+    border-radius: 1rem;
+    height: 30rem;
+    margin: 2rem;
+}
