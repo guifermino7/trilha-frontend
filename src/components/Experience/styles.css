@@ -1,0 +1,46 @@
+.experiences {
+    width: 100rem;
+    height: 42rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 2rem;
+}
+
+.experiences h2 {
+    margin: 3rem;
+    font-size: 2.4rem;
+}
+
+.experiences h3 {
+    margin: 0 3rem;
+    font-size: 2rem;
+}
+
+.experience-container {
+    margin: 2rem 3rem;
+}
+
+.experience {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.experience-container p {
+    color: #8695a4;
+    font-size: 1.4rem;
+}
+
+.bar {
+    color: #fff;
+}
+
+.stone {
+    color: lime;
+}
+
+.linx {
+    color: blueviolet;
+}
+
+.cti {
+    color: #3590C9;
+}

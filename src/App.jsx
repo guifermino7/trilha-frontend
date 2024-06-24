@@ -10,6 +10,7 @@ import article1Img from "./assets/images/html-logo.png";
 import article2Img from "./assets/images/css-logo.png";
 import article3Img from "./assets/images/javascript-logo.png";
 import article4Img from "./assets/images/react-logo.png"
+import { Experience } from "./components/Experience/Experience";
 
 class App extends React.Component {
   render() {
@@ -17,10 +18,13 @@ class App extends React.Component {
       <>
         <Navbar/>
   
-        <section id="bio">
-              <Aboutme/>
+        <section className="bio">
+            <Aboutme/>
         </section>
 
+        <section className="bio">
+            <Experience/>
+        </section>
         {/* <Counter/> */}
 
         <section id="articles">

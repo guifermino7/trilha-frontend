@@ -21,16 +21,17 @@ a {
     text-decoration: none;
 }
 
-section#bio {
+section.bio {
     width: 100%;
-    padding: 5rem;
+    padding: 1rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 section#articles {
-    width: 75%;
+    width: 100%;
     padding: 0 2rem;
     margin: 10rem auto;
     align-items: center;
