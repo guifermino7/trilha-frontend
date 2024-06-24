@@ -25,6 +25,7 @@ class App extends React.Component {
         <section className="bio">
             <Experience/>
         </section>
+        
         {/* <Counter/> */}
 
         <section id="articles">

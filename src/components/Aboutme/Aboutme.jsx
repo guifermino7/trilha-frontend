@@ -16,10 +16,12 @@ export class Aboutme extends React.Component {
                 <div className="about-me">
                     <h2>Quem sou eu?</h2>
                     <p className="introduction">
-                        Olá! Prazer, eu sou o Guilherme Fermino, atualmente tenho 22 anos e sou formado em engenharia da computação pela universidade São Judas Tadeu.
+                        Olá!
+                        Prazer, eu sou o Guilherme Fermino, tenho 22 anos e sou formado em Engenharia da Computação pela Universidade São Judas Tadeu. 
                     </p>
                     <p>
-                        Por gostar muito de matemática e por me interessar por física, eu já sabia que iria fazer engenharia, mas faltou saber qual das várias engenharias. Por ser apaixonado por tecnologia e gostar muito de programação, escolhi cursar engenharia da computação.
+                        Sempre me interessei muito pela área de exatas e, por isso, já sabia que queria seguir carreira na engenharia. 
+                        E por ser apaixonado por tecnologia e programação, não foi difícil de escolher o ramo da engenharia para estudar e me aprofundar!
                     </p>
                 </div>
             </main>
