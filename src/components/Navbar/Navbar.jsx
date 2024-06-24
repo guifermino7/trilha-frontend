@@ -17,7 +17,7 @@ export class Navbar extends React.Component {
 
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">Meus cursos</a></li>
+                        <li><a href="/">Meu conhecimento</a></li>
                         <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                         <li><a href="https://github.com/guifermino7" target="_blank" rel="noreferrer">GitHub</a></li>
                     </ul>

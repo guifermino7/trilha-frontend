@@ -46,8 +46,8 @@ header nav#navbar ul.nav-list li a {
 }
 
 header nav#navbar ul.nav-list li a:hover {
-    color: #fff;
-    transition: 1s ease-in-out;
+    color: aqua;
+    transition: 0.3s ease-in-out;
 }
 
 img.react {
