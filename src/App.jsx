@@ -11,21 +11,23 @@ import article2Img from "./assets/images/css-logo.png";
 import article3Img from "./assets/images/javascript-logo.png";
 import article4Img from "./assets/images/react-logo.png"
 import { Experience } from "./components/Experience/Experience";
+import { Skills } from "./components/Skills/Skills";
 
 class App extends React.Component {
   render() {
     return (
-      <>
+      <div className="site">
         <Navbar/>
   
-        <section className="bio">
+        <section className="intro">
             <Aboutme/>
         </section>
 
         <section className="bio">
             <Experience/>
+            <Skills/>
         </section>
-        
+
         {/* <Counter/> */}
 
         <section id="articles">
@@ -57,7 +59,7 @@ class App extends React.Component {
           thumbnail={article4Img}
           url="https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391"/>
         </section>
-      </>
+      </div>
     );
   }
 }

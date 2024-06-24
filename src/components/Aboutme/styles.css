@@ -15,7 +15,7 @@ section .about-me h2 {
 
 .about-me p {
     max-height: 25rem;
-    margin: 3rem;
+    margin: 2rem 3rem;
     font-size: 1.4rem;
     text-align: justify;
 }
