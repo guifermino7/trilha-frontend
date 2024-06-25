@@ -1,6 +1,6 @@
 import React from "react";
 
-import logoImg from "../../assets/images/react-icon.png";
+import logoImg from "../../assets/images/portal-rick-and-morty.gif";
 
 import "./styles.css";
 
@@ -10,9 +10,9 @@ export class Navbar extends React.Component {
             <header>
                 <nav id="navbar">
                     <div className="nav-brand">
-                        <img src={logoImg} alt="Logo do React" className="react logo"/>
+                        <img src={logoImg} alt="Portal do Rick and Morty" className="portal logo"/>
 
-                        <h1>Software <span>Engineer</span> GuiFermino</h1>
+                        <h1>Software <span>Engineer</span> GuiFermino7</h1>
                     </div>
 
                     <ul className="nav-list">

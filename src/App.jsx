@@ -30,7 +30,7 @@ class App extends React.Component {
 
         {/* <Counter/> */}
 
-        <section id="articles">
+        {/* <section id="articles">
           <Article 
           title="Curso de HTML"
           provider="Ada Tech"
@@ -58,7 +58,7 @@ class App extends React.Component {
           description="Este é um curso de React, onde irá unir tudo que foi estudando nos cursos de HTML, CSS e Javascript junto com funcionalidades do React."
           thumbnail={article4Img}
           url="https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391"/>
-        </section>
+        </section> */}
       </div>
     );
   }
