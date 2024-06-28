@@ -30,6 +30,10 @@ h2 {
     align-items: center;
 }
 
+.knowledge-button {
+    cursor: pointer;
+}
+
 section.intro {
     width: 100%;
     padding: 1rem;
@@ -46,15 +50,12 @@ section.bio {
     justify-content: space-between;
 }
 
-section#articles {
+section#myknowledge {
     width: 100%;
-    padding: 0 2rem;
-    margin: 10rem auto;
     align-items: center;
 
     display: flex;
     flex-direction: column;
-    gap: 4.6rem;
 }
 
 *::-webkit-scrollbar {
@@ -65,4 +66,61 @@ section#articles {
     background-color: #aaa;
     border-radius: 10px;
     border: 0.2rem solid #bbb;
+}
+
+header {
+    width: 100%;
+    background-color: #333333;
+    box-shadow: 0rem 0.4rem 0.7rem rgba(0, 0, 0, 0.25);
+}
+
+.nav-brand span {
+    color: darkorchid;
+}
+
+header nav#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 75vw;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+}
+
+header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    
+    gap: 1rem;
+}
+
+header nav#navbar .nav-brand h1 {
+    font-family: "Grenze", serif;
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+
+header nav#navbar ul.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    gap: 4rem;
+}
+
+header nav#navbar ul.nav-list li a {
+    color: #ccc;
+    font-size: 1.5rem;
+}
+
+header nav#navbar ul.nav-list li a:hover {
+    color: aqua;
+    transition: 0.3s ease-in-out;
+    padding: 1rem;
+}
+
+img.portal {
+    height: 7rem;
 }
