@@ -1,34 +1,58 @@
-#knowledge {
+.knowledge-container {
+    display: grid;
+    grid-template-columns: 2.2fr 3fr;
+    justify-content: center;
+}
+
+#knowledge, #project {
     display: flex;
-    width: 100rem;
     height: 17rem;
-    background-color: rgba(1, 1, 1, 0.2);
+    background-color: rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     align-items: center;
     margin: 2rem;
+    padding: 1.8rem;
 
     gap: 1rem;
 }
 
-article img {
+#knowledge {
+    width: 50rem;
+}
+
+#project {
+    width: 70rem;
+}
+
+#project, h2 {
+    color: #fff;
+}
+
+#knowledge img {
     width: 9rem;
     height: 12rem;
     margin: 2.4rem;
 }
 
-#knowledge .knowledge-infos h2 {
-    font-size: 2.5rem;
+#project img {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+#knowledge .knowledge-info h2 {
+    font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1.2rem;
 }
 
-#knowledge .knowledge-infos h3 {
-    font-size: 2rem;
+#knowledge .knowledge-info h3 {
+    font-size: 1.8rem;
     font-weight: 400;
     color: #8695a4;
     margin-bottom: 1rem;
 }
 
-#knowledge .knowledge-infos p {
-    font-size: 1.6rem;
+#knowledge .knowledge-info p {
+    font-size: 1.4rem;
 }
