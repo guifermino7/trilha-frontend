@@ -1,10 +1,4 @@
-.knowledge-container {
-    display: grid;
-    grid-template-columns: 2.2fr 3fr;
-    justify-content: center;
-}
-
-#knowledge, #project {
+#knowledge {
     display: flex;
     height: 17rem;
     background-color: rgba(0, 0, 0, 0.25);
@@ -20,24 +14,16 @@
     width: 50rem;
 }
 
-#project {
-    width: 70rem;
-}
-
-#project, h2 {
-    color: #fff;
-}
-
 #knowledge img {
-    width: 9rem;
-    height: 12rem;
+    width: 8rem;
+    height: 11rem;
     margin: 2.4rem;
 }
 
-#project img {
-    width: 10rem;
-    height: 10rem;
-    margin: 1rem;
+#knowledge img:hover {
+    width: 9rem;
+    height: 12rem;
+    transition: 0.25s ease-in-out;
 }
 
 #knowledge .knowledge-info h2 {
@@ -51,8 +37,4 @@
     font-weight: 400;
     color: #8695a4;
     margin-bottom: 1rem;
-}
-
-#knowledge .knowledge-info p {
-    font-size: 1.4rem;
 }

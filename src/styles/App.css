@@ -44,7 +44,8 @@ section.bio {
     justify-content: space-between;
 }
 
-section#myknowledge {
+section#myknowledge,
+aside#myprojects {
     width: 100%;
     margin: 2rem;
     align-items: center;
@@ -127,4 +128,10 @@ header nav#navbar ul.nav-list li button:hover {
 
 img.portal {
     height: 7rem;
+}
+
+.knowledge-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
 }

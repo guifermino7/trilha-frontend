@@ -6,6 +6,7 @@ import { Aboutme } from "./components/Aboutme/Aboutme";
 import { Experience } from "./components/Experience/Experience";
 import { Skills } from "./components/Skills/Skills";
 import { Knowledge } from "./components/Knowledge/Knowledge";
+import { Projects } from "./components/Projects/Projects";
 
 import logoImg from "./assets/images/portal-rick-and-morty.gif";
 import article1Img from "./assets/images/html-logo.png";
@@ -13,6 +14,7 @@ import article2Img from "./assets/images/css-logo.png";
 import article3Img from "./assets/images/javascript-logo.png";
 import article4Img from "./assets/images/react-logo.png";
 import marioGame from "./assets/images/mario-icon.png";
+import pokeball from "./assets/images/pokeball-icon.png";
 
 class App extends React.Component {
   constructor() {
@@ -54,39 +56,57 @@ class App extends React.Component {
 
         {/* <Counter/> */}
 
-        <section id="myknowledge" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
-          { this.state.showKnowledge ? <Knowledge
-          title="Curso de HTML"
-          provider="Ada Tech"
-          description="Este é um curso de HTML, onde é fundamental consolidar conhecimentos para poder aprender React."
-          thumbnail={article1Img}
-          url="https://comunidade.ada.tech/cursos/829a58a4-5871-410f-883a-4653fcccb0b6"
-          /> : null }
+        <div className="knowledge-container">
+          <section id="myknowledge" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
+            { this.state.showKnowledge ? <Knowledge
+            title="Curso de HTML"
+            provider="Ada Tech"
+            description="Este é um curso de HTML, onde é fundamental consolidar conhecimentos para poder aprender React."
+            thumbnail={article1Img}
+            url="https://comunidade.ada.tech/cursos/829a58a4-5871-410f-883a-4653fcccb0b6"
+            /> : null }
 
-          { this.state.showKnowledge ? <Knowledge
-          title="Curso de CSS"
-          provider="Ada Tech"
-          description="Este é um curso de CSS, onde é fundamental consolidar conhecimentos para poder aprender React."
-          thumbnail={article2Img}
-          url="https://comunidade.ada.tech/cursos/7b554e4d-867e-4859-a1ff-5effae0d5ff9"
-          /> : null }
+            { this.state.showKnowledge ? <Knowledge
+            title="Curso de CSS"
+            provider="Ada Tech"
+            description="Este é um curso de CSS, onde é fundamental consolidar conhecimentos para poder aprender React."
+            thumbnail={article2Img}
+            url="https://comunidade.ada.tech/cursos/7b554e4d-867e-4859-a1ff-5effae0d5ff9"
+            /> : null }
 
-          { this.state.showKnowledge ? <Knowledge
-          title="Curso de Javascript"
-          provider="Ada Tech"
-          description="Este é um curso de Javascript, onde é fundamental consolidar conhecimentos para poder aprender React."
-          thumbnail={article3Img}
-          url="https://comunidade.ada.tech/cursos/1eee6337-f72e-61e0-f36a-9477308320a9"
-          /> : null }
+            { this.state.showKnowledge ? <Knowledge
+            title="Curso de Javascript"
+            provider="Ada Tech"
+            description="Este é um curso de Javascript, onde é fundamental consolidar conhecimentos para poder aprender React."
+            thumbnail={article3Img}
+            url="https://comunidade.ada.tech/cursos/1eee6337-f72e-61e0-f36a-9477308320a9"
+            /> : null }
 
-          { this.state.showKnowledge ? <Knowledge
-          title="Curso de React"
-          provider="Ada Tech"
-          description="Este é um curso de React, onde irá unir tudo que foi estudando nos cursos de HTML, CSS e Javascript junto com funcionalidades do React."
-          thumbnail={article4Img}
-          url="https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391"
-          /> : null }
-        </section>
+            { this.state.showKnowledge ? <Knowledge
+            title="Curso de React"
+            provider="Ada Tech"
+            description="Este é um curso de React, onde irá unir tudo que foi estudando nos cursos de HTML, CSS e Javascript junto com funcionalidades do React."
+            thumbnail={article4Img}
+            url="https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391"
+            /> : null }
+          </section>
+
+          <aside id="myprojects" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
+            { this.state.showKnowledge ? <Projects
+              title="Projeto - Mario Jump"
+              description="Este é um projeto utilizando apenas HTML, CSS e Javascript a fim de treinar o conhecimento adquirido nos cursos. O projeto é um jogo onde tem como objetivo fazer com que o Mario pule os Koopas (tartarugas) sem tocar nelas, por que ao tocar ele morre e perde o jogo."
+              thumbnail={marioGame}
+              url="https://guifermino7.github.io/jogo-mario/"
+              /> : null }
+
+              { this.state.showKnowledge ? <Projects
+              title="Projeto - Pokedex"
+              description="Este é um projeto utilizando apenas HTML e CSS a fim de treinar o conhecimento adquirido na 'Semana do zero ao programador contratado'. O projeto é uma cópia da pokedex com informação dos primeiro 50 pokemons."
+              thumbnail={pokeball}
+              url="https://guifermino7.github.io/pokedex/"
+              /> : null }
+          </aside>
+        </div>
       </div>
     );
   }
