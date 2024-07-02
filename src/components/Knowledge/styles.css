@@ -1,5 +1,6 @@
 #knowledge {
     display: flex;
+    width: 50rem;
     height: 17rem;
     background-color: rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
@@ -10,20 +11,11 @@
     gap: 1rem;
 }
 
-#knowledge {
-    width: 50rem;
-}
 
 #knowledge img {
     width: 8rem;
     height: 11rem;
     margin: 2.4rem;
-}
-
-#knowledge img:hover {
-    width: 9rem;
-    height: 12rem;
-    transition: 0.25s ease-in-out;
 }
 
 #knowledge .knowledge-info h2 {
@@ -33,8 +25,12 @@
 }
 
 #knowledge .knowledge-info h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 400;
     color: #8695a4;
     margin-bottom: 1rem;
+}
+
+#knowledge .knowledge-info p {
+    text-align: justify;
 }

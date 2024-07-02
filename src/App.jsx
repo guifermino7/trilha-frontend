@@ -9,12 +9,16 @@ import { Knowledge } from "./components/Knowledge/Knowledge";
 import { Projects } from "./components/Projects/Projects";
 
 import logoImg from "./assets/images/portal-rick-and-morty.gif";
-import article1Img from "./assets/images/html-logo.png";
-import article2Img from "./assets/images/css-logo.png";
-import article3Img from "./assets/images/javascript-logo.png";
-import article4Img from "./assets/images/react-logo.png";
+import htmlImg from "./assets/images/html-logo.png";
+import cssImg from "./assets/images/css-logo.png";
+import javascriptImg from "./assets/images/javascript-logo.png";
+import reactImg from "./assets/images/react-logo.png";
+import mysqlImg from "./assets/images/mysql-logo.png";
+import pythonImg from "./assets/images/python-logo.png";
+
 import marioGame from "./assets/images/mario-icon.png";
 import pokeball from "./assets/images/pokeball-icon.png";
+import landingPageImg from "./assets/images/landing-page-logo.png";
 
 class App extends React.Component {
   constructor() {
@@ -37,7 +41,7 @@ class App extends React.Component {
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>
                         <li><button onClick={() => {
-                                    this.setState({ showKnowledge: !this.state.showKnowledge })
+                                    this.setState({ showKnowledge: true })
                                 }}>Meu conhecimento</button></li>
                         <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                         <li><a href="https://github.com/guifermino7" target="_blank" rel="noreferrer">GitHub</a></li>
@@ -59,35 +63,45 @@ class App extends React.Component {
         <div className="knowledge-container">
           <section id="myknowledge" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
             { this.state.showKnowledge ? <Knowledge
-            title="Curso de HTML"
-            provider="Ada Tech"
-            description="Este é um curso de HTML, onde é fundamental consolidar conhecimentos para poder aprender React."
-            thumbnail={article1Img}
-            url="https://comunidade.ada.tech/cursos/829a58a4-5871-410f-883a-4653fcccb0b6"
+            title="HTML"
+            provider="Udemy e Ada Tech"
+            description="Aprendi HTML através de Bootcamps, DevWeek e cursos na Udemy (JavaScript e TypeScript do básico ao avançado JS/TS) e na Ada Tech."
+            thumbnail={htmlImg}
             /> : null }
 
             { this.state.showKnowledge ? <Knowledge
-            title="Curso de CSS"
-            provider="Ada Tech"
-            description="Este é um curso de CSS, onde é fundamental consolidar conhecimentos para poder aprender React."
-            thumbnail={article2Img}
-            url="https://comunidade.ada.tech/cursos/7b554e4d-867e-4859-a1ff-5effae0d5ff9"
+            title="CSS"
+            provider="Udemy e Ada Tech"
+            description="Aprendi CSS, assim como HTML, através de Bootcamps, DevWeek e cursos na Udemy (JavaScript e TypeScript do básico ao avançado JS/TS) e na Ada Tech."
+            thumbnail={cssImg}
             /> : null }
 
             { this.state.showKnowledge ? <Knowledge
-            title="Curso de Javascript"
-            provider="Ada Tech"
-            description="Este é um curso de Javascript, onde é fundamental consolidar conhecimentos para poder aprender React."
-            thumbnail={article3Img}
-            url="https://comunidade.ada.tech/cursos/1eee6337-f72e-61e0-f36a-9477308320a9"
+            title="Javascript"
+            provider="Udemy e Ada Tech"
+            description="Aprendi Javascript através de Bootcamps e cursos na Udemy (JavaScript e TypeScript do básico ao avançado JS/TS) e na Ada Tech."
+            thumbnail={javascriptImg}
             /> : null }
 
             { this.state.showKnowledge ? <Knowledge
-            title="Curso de React"
+            title="React"
             provider="Ada Tech"
-            description="Este é um curso de React, onde irá unir tudo que foi estudando nos cursos de HTML, CSS e Javascript junto com funcionalidades do React."
-            thumbnail={article4Img}
-            url="https://comunidade.ada.tech/cursos/b60dfd96-34d9-4880-b23e-7e3679eb5391"
+            description="Aprendi React através do Bootcamp da Santander com a Ada Tech."
+            thumbnail={reactImg}
+            /> : null }
+
+            { this.state.showKnowledge ? <Knowledge
+            title="MySQL"
+            provider="Udemy e USJT"
+            description="Aprendi MySQL através do curso 'SQL Completo - Aplicado ao Mercado de Trabalho' e na faculdade."
+            thumbnail={mysqlImg}
+            /> : null }
+
+            { this.state.showKnowledge ? <Knowledge
+            title="Python"
+            provider="Curso em Vídeo"
+            description="Aprendi Python através dos cursos 'Python 3 - Mundo 1' e 'Python 3 - Mundo 2'."
+            thumbnail={pythonImg}
             /> : null }
           </section>
 
@@ -104,6 +118,13 @@ class App extends React.Component {
               description="Este é um projeto utilizando apenas HTML e CSS a fim de treinar o conhecimento adquirido na 'Semana do zero ao programador contratado'. O projeto é uma cópia da pokedex com informação dos primeiro 50 pokemons."
               thumbnail={pokeball}
               url="https://guifermino7.github.io/pokedex/"
+              /> : null }
+              
+              { this.state.showKnowledge ? <Projects
+              title="Projeto - Landing Page"
+              description="Este é um projeto utilizando apenas HTML e CSS a fim de treinar o conhecimento adquirido no curso 'JavaScript e TypeScript do básico ao avançado JS/TS'. O projeto consiste em uma landing page com informações aleatórias."
+              thumbnail={landingPageImg}
+              url="https://guifermino7.github.io/my-first-landing-page/"
               /> : null }
           </aside>
         </div>
