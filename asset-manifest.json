@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trilha-frontend/static/css/main.791bf097.css",
+    "main.js": "/trilha-frontend/static/js/main.d544dd90.js",
+    "static/media/portal-rick-and-morty.gif": "/trilha-frontend/static/media/portal-rick-and-morty.f7a3a35106b3766c24d4.gif",
+    "static/media/mysql-logo.png": "/trilha-frontend/static/media/mysql-logo.167c88550478e6f0f85c.png",
+    "static/media/Eu.jpeg": "/trilha-frontend/static/media/Eu.d92590376712e440e99f.jpeg",
+    "static/media/javascript-logo.png": "/trilha-frontend/static/media/javascript-logo.18333baf0fe9d99229c9.png",
+    "static/media/python-logo.png": "/trilha-frontend/static/media/python-logo.a0db2cef1394578225fa.png",
+    "static/media/react-logo.png": "/trilha-frontend/static/media/react-logo.404167651b40e37feacf.png",
+    "static/media/css-logo.png": "/trilha-frontend/static/media/css-logo.a9ee5e0bb7082317dfbc.png",
+    "static/media/html-logo.png": "/trilha-frontend/static/media/html-logo.ba0f480cf76277b61318.png",
+    "static/media/landing-page-logo.png": "/trilha-frontend/static/media/landing-page-logo.e7cb39d5321f77c5d206.png",
+    "static/media/pokeball-icon.png": "/trilha-frontend/static/media/pokeball-icon.30ff27a922b6ed73b4ed.png",
+    "index.html": "/trilha-frontend/index.html",
+    "main.791bf097.css.map": "/trilha-frontend/static/css/main.791bf097.css.map",
+    "main.d544dd90.js.map": "/trilha-frontend/static/js/main.d544dd90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.791bf097.css",
+    "static/js/main.d544dd90.js"
+  ]
+}
