@@ -81,7 +81,7 @@ header nav#navbar {
     max-width: 75%;
     height: 8rem;
     margin: 0 auto;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
 }
 
 header nav#navbar .nav-brand {
@@ -101,8 +101,6 @@ header nav#navbar ul.nav-list {
     display: flex;
     align-items: center;
     list-style: none;
-
-    gap: 4rem;
 }
 
 button {
@@ -110,20 +108,56 @@ button {
     border: none;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+}
+
+header nav#navbar ul.nav-list li,
+header nav#navbar ul.nav-list li  {
+    position: relative;
+    overflow: hidden;
+    padding: 0.55rem 3rem;
 }
 
 header nav#navbar ul.nav-list li a,
 header nav#navbar ul.nav-list li button {
     color: #ccc;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 header nav#navbar ul.nav-list li a:hover,
 header nav#navbar ul.nav-list li button:hover {
-    color: aqua;
-    transition: 0.3s ease-in-out;
-    padding: 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+
+.nav-list li:before {
+    content: "";
+    position: absolute;
+    inset: calc(100% - 0.3rem) 0 0 0;
+    background:aqua;
+    scale: 0 1;
+    transition: .3s, translate 0s .3s;
+}
+
+ul:hover li:before {
+    scale: 1;
+}
+
+ul li:hover:before {
+    translate: 0;
+    transition: .3s;
+}
+
+ul:hover li:has(~ li:hover):before {
+    translate: 100% 0;
+    transition: .2s .2s, scale 0s .4s;
+}
+
+ul:hover li:hover ~ li:before {
+    translate: -100% 0;
+    transition: .2s .2s, scale 0s .4s;
 }
 
 img.portal {
