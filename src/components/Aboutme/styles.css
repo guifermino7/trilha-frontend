@@ -1,9 +1,11 @@
 main {
-    width: 100rem;
+    width: 55%;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .about-me {
+    width: 55%;
     background-color: rgba(1, 1, 1, 0.5);
     border-radius: 2rem;
 }
@@ -25,4 +27,58 @@ section .about-me h2 {
     border-radius: 1rem;
     height: 32rem;
     margin: 1.4rem;
+}
+
+@media screen and (max-width: 80rem) {
+    main {
+        width: 65%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about-me {
+        min-width: 60%;
+    }
+
+    section .about-me h2 {
+        margin: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .about-me p {
+        margin: 1.5rem 2.5rem;
+        font-size: 1.4rem;
+    }
+
+    .eu-foto {
+        height: 30rem;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 80rem) and (max-width: 128.125rem) {
+    main {
+        align-items: center;
+        width: 57%;
+    }
+
+    .about-me {
+        min-width: 65%;
+    }
+
+    section .about-me h2 {
+        margin: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .about-me p {
+        margin: 1.5rem 2.5rem;
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+
+    .eu-foto {
+        height: 30rem;
+        margin: 0.5rem;
+    }
 }

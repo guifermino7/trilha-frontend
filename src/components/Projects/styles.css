@@ -32,3 +32,11 @@
 #project .project-info p {
     text-align: justify;
 }
+
+@media screen and (max-width: 80rem) {
+
+}
+
+@media screen and (min-width: 80rem) and (max-width: 128.125rem) {
+    
+}

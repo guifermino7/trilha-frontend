@@ -54,8 +54,10 @@ class App extends React.Component {
         </section>
 
         <section className="bio" style={{display: this.state.showKnowledge ? "none" : "flex"}}>
+          <div className="bio-container">
             { this.state.showKnowledge ? null : <Experience/> }
             { this.state.showKnowledge ? null : <Skills/> }
+          </div>
         </section>
 
         {/* <Counter/> */}
