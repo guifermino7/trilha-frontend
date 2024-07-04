@@ -17,7 +17,46 @@
     list-style: disc;
 }
 
-@media screen and (max-width: 80rem) {
+@media screen and (min-width: 25rem) and (max-width: 52rem) {
+
+}
+
+@media screen and (min-width: 52rem) and (max-width: 61rem) {
+    .skills{
+        width: 33rem;
+        height: 35rem;
+        margin-bottom: 3rem;
+    }
+
+    .skills h2 {
+        margin: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .skills li {
+        margin: 0 5rem;
+        font-size: 1.55rem;
+    }
+}
+
+@media screen and (min-width: 61rem) and (max-width: 65rem) {
+    .skills{
+        width: 40%;
+        height: 35rem;
+    }
+
+    .skills h2 {
+        margin: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .skills li {
+        margin: 0 5rem;
+        font-size: 1.55rem;
+    }
+}
+
+@media screen and (min-width: 65rem) and (max-width: 80rem) {
     .skills{
         width: 30rem;
         height: 35.5rem;

@@ -45,7 +45,72 @@
     color: #3590C9;
 }
 
-@media screen and (max-width: 80rem) {
+@media screen and (min-width: 25rem) and (max-width: 52rem) {
+
+}
+
+@media screen and (min-width: 52rem) and (max-width: 61rem) {
+    .experiences {
+        width: 33rem;
+        height: 35rem;
+        margin: 3rem;
+    }
+
+    .experiences h2 {
+        margin: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .experiences h3 {
+        margin: 0 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .experience-container {
+        margin: 1.5rem 2.5rem;
+    }
+    
+    .experience {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+    
+    .experience-container p {
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (min-width: 61rem) and (max-width: 65rem) {
+    .experiences {
+        width: 40%;
+        height: 35rem;
+    }
+
+    .experiences h2 {
+        margin: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .experiences h3 {
+        margin: 0 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .experience-container {
+        margin: 1.5rem 2.5rem;
+    }
+    
+    .experience {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+    
+    .experience-container p {
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (min-width: 65rem) and (max-width: 80rem) {
     .experiences {
         width: 35rem;
         height: 35.5rem;
@@ -71,7 +136,6 @@
     }
     
     .experience-container p {
-        color: #8695a4;
         font-size: 1.3rem;
     }
 }
@@ -103,7 +167,6 @@
     }
     
     .experience-container p {
-        color: #8695a4;
         font-size: 1.3rem;
     }
 }

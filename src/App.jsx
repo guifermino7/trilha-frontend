@@ -25,6 +25,7 @@ class App extends React.Component {
     super();
 
     this.state = { showKnowledge: false }
+    this.state = { showMenuBar: false }
   }
 
   render() {
@@ -38,14 +39,18 @@ class App extends React.Component {
                         <h1>Software <span>Engineer</span> GuiFermino7</h1>
                     </div>
 
-                    <ul className="nav-list">
-                        <li><a href="/">Home</a></li>
-                        <li><button onClick={() => {
-                                    this.setState({ showKnowledge: true })
-                                }}>Meu conhecimento</button></li>
-                        <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                        <li><a href="https://github.com/guifermino7" target="_blank" rel="noreferrer">GitHub</a></li>
-                    </ul>
+                    <input id="checkbox" className="checkbox" type="checkbox"/>
+                    <label className="label-menu" htmlFor="checkbox"><span className="menu-icon"></span>
+                    </label>
+
+                    <aside className="menu">
+                        <ul className="nav-list" onClick={() => { this.setState({ showMenuBar: false }) }}>
+                            <li><a href="/">Home</a></li>
+                            <li><button onClick={() => { this.setState({ showKnowledge: true })}}>Meu conhecimento</button></li>
+                            <li><a href="https://www.linkedin.com/in/guilhermefermino/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                            <li><a href="https://github.com/guifermino7" target="_blank" rel="noreferrer">GitHub</a></li>
+                        </ul>
+                    </aside>
                 </nav>
         </header>
   
@@ -107,7 +112,7 @@ class App extends React.Component {
             /> : null }
           </section>
 
-          <aside id="myprojects" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
+          <section id="myprojects" style={{display: this.state.showKnowledge ? "flex" : "none"}}>
             { this.state.showKnowledge ? <Projects
               title="Projeto - Mario Jump"
               description="Este é um projeto utilizando apenas HTML, CSS e Javascript a fim de treinar o conhecimento adquirido nos cursos. O projeto é um jogo onde tem como objetivo fazer com que o Mario pule os Koopas (tartarugas) sem tocar nelas, por que ao tocar ele morre e perde o jogo."
@@ -128,7 +133,7 @@ class App extends React.Component {
               thumbnail={landingPageImg}
               url="https://guifermino7.github.io/my-first-landing-page/"
               /> : null }
-          </aside>
+          </section>
         </div>
       </div>
     );
