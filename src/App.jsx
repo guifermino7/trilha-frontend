@@ -107,7 +107,7 @@ class App extends React.Component {
             { this.state.showKnowledge ? <Knowledge
             title="Python"
             provider="Curso em Vídeo"
-            description="Aprendi Python através dos cursos 'Python 3 - Mundo 1' e 'Python 3 - Mundo 2'."
+            description="Aprendi Python através dos cursos 'Python 3 - Mundo 1' e 'Python 3 - Mundo 2' no Curso em Vídeo."
             thumbnail={pythonImg}
             /> : null }
           </section>

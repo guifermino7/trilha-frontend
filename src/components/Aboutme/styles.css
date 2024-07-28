@@ -29,26 +29,24 @@ section .about-me h2 {
     margin: 1.4rem;
 }
 
-@media screen and (min-width: 25rem) and (max-width: 52rem) {
-
-}
-
-@media screen and (min-width: 52rem) and (max-width: 61rem) {
+@media screen and (max-width: 61rem) {
     main {
-        width: 65rem;
-        height: 65rem;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 2rem;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     .about-me {
-        min-width: 70%;
-        height: 31rem;
+        width: 33rem;
+        padding: 0.5rem;
+        margin-top: 3rem;
     }
 
     section .about-me h2 {
-        margin: 2.5rem;
+        margin: 1.5rem 1.5rem 2rem 2.5rem;
         font-size: 2rem;
     }
 
