@@ -177,7 +177,8 @@ img.portal {
 }
 
 .label-menu,
-.checkbox {
+.checkbox,
+.back-to-top {
     display: none;
 }
 
@@ -201,13 +202,22 @@ img.portal {
     }
 
     header nav#navbar ul.nav-list li {
-        padding: 2rem;
+        padding: 3rem;
         margin-inline: 1rem;
     }
 
     header nav#navbar ul.nav-list li a,
     header nav#navbar ul.nav-list li button {
         font-size: 1.8rem;
+    }
+
+    header nav#navbar ul.nav-list li a:hover,
+    header nav#navbar ul.nav-list li button:hover {
+        font-size: 2.2rem;
+    }
+
+    .nav-list li:before {
+        background-color: #333333;
     }
 
     img.portal {
@@ -277,8 +287,8 @@ img.portal {
         transition: 0.3s;
     }
 
-    .checkbox:checked ~ .menu {
-        height: calc(100vh - 6.5rem);
+    .checkbox:checked ~ .menu {     
+        height: calc(200vh + 6.5rem);
         visibility: visible;
         overflow-y: auto;
     }
@@ -294,6 +304,21 @@ img.portal {
     .checkbox:checked ~ .label-menu .menu-icon::after {
         transform: rotate(-135deg);
         top: -0.4375rem;
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background-color: #333333;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: darkorchid;
+        border: 0.1rem solid #000;
     }
 }
 
@@ -391,15 +416,11 @@ img.portal {
 
     header nav#navbar ul.nav-list li a,
     header nav#navbar ul.nav-list li button {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     
     section.bio div.bio-container {
         min-width: 55%;
         justify-content: space-around;
-    }
-
-    header nav#navbar .nav-brand h1 {
-        font-size: 2.8rem;
     }
 }

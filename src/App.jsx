@@ -135,6 +135,7 @@ class App extends React.Component {
               /> : null }
           </section>
         </div>
+        <a className="back-to-top" href="/">⮝</a>
       </div>
     );
   }
